@@ -1,0 +1,21 @@
+{
+  "name": "ts-jest-tla",
+  "version": "1.0.0",
+  "description": "Reproduction for top-level await not working with ts-jest",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "tla": "node --loader ts-node/esm tla.ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.0",
+    "ts-jest": "^26.4.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
