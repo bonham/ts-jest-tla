@@ -1,10 +1,10 @@
-import { add } from './index';
+import { add } from './add'
 
-const three: number = 3;
+// top-level await
+const one = await 1
+
+const three = 3
 
 test('one', () => {
-  expect(add(1, 2)).toEqual(three);
-});
-
-// Causes error TS1378: Top-level 'await' expressions are only allowed when the 'module' option is set to 'esnext' or 'system', and the 'target' option is set to 'es2017' or higher.
-const a = await 1;
+  expect(add(one, 2)).toEqual(three)
+})
