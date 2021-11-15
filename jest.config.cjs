@@ -1,5 +1,13 @@
 module.exports = {
-  preset: 'ts-jest',
-  testRegex: '.*.test.ts',  // test only filenames matching this regex
-  moduleFileExtensions: ['ts', 'js'],  // modules are only in .ts files, but 'js' *must* be specified too
-};
+  // https://jestjs.io/docs/ecmascript-modules
+  transform: {},
+  // https://kulshekhar.github.io/ts-jest/docs/guides/esm-support/#use-esm-presets; 'manual configuration' didn't work
+  preset: 'ts-jest/presets/default-esm',
+  globals: {
+    'ts-jest': {
+      useESM: true,
+    },
+  },
+  testEnvironment: 'node',
+  testRegex: '.*.test.ts',
+}
