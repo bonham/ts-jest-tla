@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Repro showing how to use top-level await with jest",
   "type": "module",
-  "main": "index.js",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
-    "test": "node --no-warnings --experimental-vm-modules node_modules/jest/bin/jest.js"
+    "test": "node --no-warnings --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "run": "node dist/main.js"
+
   },
   "keywords": [],
   "author": "",
