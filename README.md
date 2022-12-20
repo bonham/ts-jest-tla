@@ -1,4 +1,10 @@
-## Using top-level await with Jest
+## Using top-level await with Jest in a more complex scenario
+
+This is a fork from https://github.com/HerbCaudill/ts-jest-tla
+
+I like to test more complex scenarios with import and mocks
+
+following is original README from HerbCaudill
 
 ### Don't take my word for it
 
