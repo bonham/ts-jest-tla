@@ -1,4 +1,4 @@
-import { add } from './add'
+import { add } from './add.js'
 
 // top-level await
 const one = await 1
