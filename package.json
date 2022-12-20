@@ -6,7 +6,6 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "tla": "node --loader ts-node/esm tla.ts",
     "test": "node --no-warnings --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [],
