@@ -3,6 +3,7 @@
     "esModuleInterop": true,
     "target": "esnext",
     "module": "esnext",
+    
     "outDir": "dist",
     "moduleResolution": "NodeNext"
   }
